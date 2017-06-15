@@ -1,0 +1,74 @@
+# arquivo de configuração de dispositivos para o simulador
+
+%7segdisplays Display
+#port
+0x90000
+
+%timer
+# port  int_type
+0x90008 0x07
+
+%7segdisplays Display
+#port
+0x90020
+
+%timer
+# port  int_type
+0x90028 0x07
+
+%7segdisplays Display
+#port
+0x90040
+
+%timer
+# port  int_type
+0x90048 0x07
+
+%7segdisplays Display
+#port
+0x90060
+
+%timer
+# port  int_type
+0x90068 0x07
+
+%7segdisplays Display
+#port
+0x90080
+
+%timer
+# port  int_type
+0x90088 0x07
+
+%7segdisplays Display
+#port
+0x900A0
+
+%timer
+# port  int_type
+0x900A8 0x07
+
+%7segdisplays Display
+#port
+0x900C0
+
+%timer
+# port  int_type
+0x900C8 0x07
+
+%7segdisplays Display
+#port
+0x900E0
+
+%timer
+# port  int_type
+0x900E8 0x07
+
+
+%leds ON_OFF
+g 0x90010
+
+%buttons LIGA
+#name port int type
+Liga 0x90004 0x00 T
+
